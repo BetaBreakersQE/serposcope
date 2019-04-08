@@ -95,7 +95,7 @@ public class GoogleSettingsController extends BaseController {
                 flash.error("error.invalidIP");
                 return Results.redirect(router.getReverseRoute(GoogleSettingsController.class, "settings"));
             }
-            options.setDefaultDatacenter(datacenter);            
+            options.setDefaultDatacenter(datacenter);
         } else {
             options.setDefaultDatacenter(defaultOptions.getDefaultDatacenter());
         }
