@@ -31,7 +31,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
-public class \GoogleSerpRescanDB {
+public class GoogleSerpRescanDB {
     
     private static final Logger LOG = LoggerFactory.getLogger(GoogleSerpRescanDB.class);
     
